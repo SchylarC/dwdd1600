@@ -21,7 +21,7 @@ nav {
 }
 nav ul {
       margin: 0;
-      padding: 0 10px;
+      padding: 0 48px;
       list-style-type: none;
       display: flex;
 }
@@ -34,7 +34,10 @@ nav a {
       font-weight: 700;
 }
 
-nav li.active a {
+nav li.index a {
+      background-color:  #BF5E0A;
+}
+nav li.equipment a {
       background-color:  #BF5E0A;
 }
 
