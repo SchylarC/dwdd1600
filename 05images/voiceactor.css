@@ -1,0 +1,186 @@
+body {
+      font-family: "Oswald", sans-serif;
+      margin: 0;
+}
+
+/* header customization code */
+header {
+      background-color: #d9d9d9;
+      padding: 1rem 10px;
+}
+
+header span {
+      color: #000;
+      font-size: 1.6rem;
+      font-weight: 700;
+}
+
+
+/* navigation customization code */
+nav {
+      background-color: #2b2b2b;
+}
+
+nav ul {
+      margin: 0;
+      padding: 0 48px;
+      list-style-type: none;
+      display: flex;
+}
+
+nav a {
+      display: block;
+      padding: .82rem 1.1rem;
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #e3e3e3;
+      font-weight: 700;
+}
+
+nav li.index a {
+      background-color: #BF5E0A;
+}
+
+nav li.equipment a {
+      background-color: #BF5E0A;
+}
+
+nav li.halloffame a {
+      background-color: #BF5E0A;
+}
+
+nav li a:hover {
+      color: white;
+}
+
+
+/* main body customization code */
+main {
+      padding: .5rem 10px;
+}
+
+main h1 {
+      color: #590202;
+}
+
+main h2 {
+      color: #BF5E0A;
+      margin-bottom: .1rem;
+}
+
+main p {
+      margin: 0;
+      color: #333;
+      font-weight: 300;
+      font-size: large;
+}
+
+main li {
+      margin: 0;
+      color: #333;
+      
+}
+
+main ul {
+      padding: .5rem 20px;
+}
+
+main dl dt {
+      color: #590202;
+      font-weight: 500;
+      margin-top: .5rem;
+}
+
+main dl dd {
+      color: #8c3908;
+      font-size: .8rem;
+      margin-left: 20px;
+}
+
+main ul {
+      list-style-type: circle;
+}
+
+main ul li {
+      line-height: 120%;
+      margin-bottom: .5rem;
+      font-size: .9rem;
+}
+
+main strong {
+      font-weight: 700;
+      color: black;
+}
+
+main em {
+      font-weight: 300;
+      color: #8c3908;
+}
+
+main address {
+      font-style: normal;
+      background-color: #e3e3e3;
+      padding: .5rem;
+      border-radius: 12px;
+      border: 1.5px solid #590202;
+      width: 200px;
+}
+
+main a {
+      color: #000;
+}
+
+main a:hover {
+      color: #590202;
+}
+
+/* main image customization code */
+figure.main {
+      margin: 0 0 0 5px;
+      width: 40%;
+      float: right;
+}
+
+figure.main img {
+      width: 100%;
+      height: auto;
+}
+
+figure.main figcaption {
+      text-align: center;
+      font-size: 1rem;
+}
+
+/* gallery customization code */
+div.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px 20px;
+
+}
+
+div.gallery figure {
+      margin: 0;
+      border: solid 1px #333;
+     
+}
+
+div.gallery figcaption {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #BF5E0A;
+}
+
+/* footer customization code */
+footer {
+      background-color: #d9d9d9;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: .8rem;
+      color: #333;
+}
+
+footer p {
+      margin: 0;
+      letter-spacing: 2.5px;
+}
