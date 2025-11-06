@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Schylar Christensen">
+    <meta name="description" content="Top Tips and Tricks to Success in the Industry">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="voiceactor.css">
+    <title>What Makes a Vocie Actor?: Tips & Tricks</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.png" alt="Logo for What Makes a Voice Actor" width="26" height="50">
+        <span>What Makes a Voice Actor?</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Tips & Tricks</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li class="active"><a href="donate.html">Donate</a></li>
+            <li><a href="halloffame.html">Voice Actor Hall of Fame</a></li>
+
+        </ul>
+
+    </nav>
+    <!-- start the main content -->
+
+    <main>
+        <h1>Donate</h1>
+        <p>We are small entity creating a community of aspiring voice actors, to help us continue our efforts please
+            consider dontating. Thank you!</p>
+
+        <form method="get" class="myForm" action="thanks.html">
+            <fieldset>
+                <legend>Donor Information</Legend>
+                <label>First Name<input type="text" name="Fname" required></label>
+                <label>Last Name<input type="text" name="Lname" required></label>
+                <label>Email Address:<input type="email" name="email" required
+                        placeholder="John_Doe123@gmail.com"></label>
+                <label>Phone Number (Optional):<input type="tel" name="phone" placeholder="(123)-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Donation Amount (USD)</legend>
+                <label> <input type="radio" name="method" value="1">$1</label>
+                <label> <input type="radio" name="method" value="5">$5</label>
+                <label> <input type="radio" name="method" value="10">$10</label>
+                <label> <input type="radio" name="method" value="25">$25</label>
+                <label> <input type="radio" name="method" value="50">$50</label>
+                <label> <input type="radio" name="method" value="100">$100</label>
+                <label> <input type="radio" name="method" value="custom">Custom Amount:</label>
+                <textarea name="custom"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Method</legend>
+                <label><input type="checkbox" name="visa" value="chosen"> Debt/Credit Card</label>
+                <label><input type="checkbox" name="paypal" value="chosen"> PayPal</label>
+                <label><input type="checkbox" name="venmo" value="chosen"> Venmo</label>
+                <label><input type="checkbox" name="apple" value="chosen"> Apple Pay</label>
+                <label><input type="checkbox" name="google" value="chosen"> Google Pay</label>
+
+                <label> Donation Frequency
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="onetime">One-time</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="annually">Annually</option>
+                    </select>
+                </label>
+            </fieldset>
+            <label> Share some feedback and tell us how we are doing!
+                <textarea name="feedback"></textarea>
+            </label>
+
+            <input type="submit" value="Submit Donation">
+        </form>
+
+
+        <!-- start the page footer -->
+
+        <footer>
+            <p>&copy; 2025 &bull; Schylar Christensen &bull; Web Essentials</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

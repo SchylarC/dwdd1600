@@ -1,0 +1,317 @@
+/* Prevent Problems with Different Browsers */
+* {
+      box-sizing: border-box;
+}
+
+
+
+body {
+      font-family: "Oswald", sans-serif;
+      font-weight: 200;
+      margin: 0;
+}
+
+/* header customization code */
+header {
+      background-color: #d9d9d9;
+      padding: 1rem 10px;
+}
+
+header span {
+      color: #000;
+      font-size: 4rem;
+      font-weight: 650;
+      align-self: center;
+}
+
+
+/* small screen navigation customization code */
+@media only screen and (max-width: 800px) {
+      nav ul {
+            margin: 0;
+            padding: 0;
+      }
+
+      nav a {
+            display: block;
+            text-align: center;
+            padding: .8rem;
+            color: #8c3908;
+            text-decoration: none;
+            border-bottom: solid 1px #eee;
+            font-weight: 700;
+            text-transform: uppercase;
+      }
+
+      nav .active a {
+            background-color: #8c3908;
+            color: white;
+            background-image: linear-gradient(to bottom, #BF5E0A, #8c3908);
+      }
+}
+
+/* end small screen */
+
+
+
+/* LARGE screen navigation customization code */
+@media only screen and (min-width: 801px) {
+      nav {
+            background-color: #2b2b2b;
+      }
+
+      nav ul {
+            margin: 0;
+            padding: 0 50px;
+            list-style-type: none;
+            display: flex;
+      }
+
+      nav a {
+            display: block;
+            padding: .82rem 1.1rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #e3e3e3;
+            font-weight: 700;
+      }
+
+      nav li.active a {
+            background-color: #BF5E0A;
+      }
+
+      nav li a:hover {
+            color: white;
+            background-color: #8c3908;
+      }
+
+}
+
+/* end LARGE screen */
+
+
+
+
+
+/* main body customization code */
+main {
+      padding: .5rem 20px;
+}
+
+main h1 {
+      color: #680d0d;
+      font-size: 3rem;
+      font-weight: 550;
+}
+
+main h2 {
+      color: #BF5E0A;
+      margin-bottom: .1rem;
+      font-size: 1.8rem;
+
+}
+
+main p {
+      margin: 10px;
+      color: #000000;
+      font-weight: 325;
+      font-size: 1.1rem;
+}
+
+main li {
+      margin: 0;
+      color: #000000;
+      font-weight: 400;
+      font-size: 1rem;
+}
+
+main ul {
+      padding: .5rem 20px;
+      font-size: 3rem;
+}
+
+main dl dt {
+      color: #590202;
+      font-weight: 500;
+      margin-top: .5rem;
+}
+
+main dl dd {
+      color: #8c3908;
+      font-size: .8rem;
+      margin-left: 20px;
+}
+
+main ul {
+      list-style-type: circle;
+}
+
+main ul li {
+      line-height: 125%;
+      margin-bottom: 0rem;
+      font-size: 1rem;
+}
+
+main strong {
+      font-weight: 700;
+      color: black;
+}
+
+main em {
+      font-weight: 300;
+      color: #8c3908;
+}
+
+main address {
+      font-style: normal;
+      background-color: #e3e3e3;
+      padding: .5rem;
+      border-radius: 12px;
+      border: 1.5px solid #590202;
+      width: 200px;
+}
+
+main a {
+      color: #000;
+}
+
+main a:hover {
+      color: #590202;
+}
+
+.hero {
+      width: 100%;
+      height: auto;
+}
+
+
+
+/* main image customization code */
+figure.main {
+      margin: 0 0 0 5px;
+      width: 40%;
+      float: right;
+}
+
+figure.main img {
+      width: 100%;
+      height: auto;
+}
+
+figure.main figcaption {
+      text-align: center;
+      font-size: 1rem;
+}
+
+/* gallery customization code */
+div.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px 20px;
+}
+
+div.gallery figure {
+      margin: 0;
+      border: solid 1px #333;
+}
+
+div.gallery figure:hover {
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+      border-radius: 5px;
+}
+
+
+div.gallery figcaption {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #BF5E0A;
+}
+
+/* form customization code */
+.myForm fieldset {
+      border: 1.5px solid #2b2b2b;
+      border-radius: 1px;
+      margin-bottom: 1.5rem;
+}
+
+.myForm legend {
+      color: #BF5E0A;
+      font-size: 1.3rem;
+      font-weight: 400;
+}
+
+.myForm label {
+      margin: .75rem;
+}
+
+.myForm label,
+.myForm select,
+.myForm [type=text],
+.myForm [type=tel],
+.myForm [type=email],
+.myForm textarea {
+      display: block;
+}
+
+.myForm [type=text],
+.myForm [type=tel],
+.myForm [type=email],
+.myForm select,
+.myForm textarea {
+      border: solid 1.2px #333;
+      padding: .5rem;
+      width: 250px;
+      border-radius: .2rem;
+      font-family: "Oswald", sans-serif;
+      font-weight: 450;
+      font-size: .8rem;
+}
+
+.myForm textarea {
+      height: 7rem;
+}
+
+.myForm label {
+      font-size: 1.1rem;
+      font-weight: 330;
+}
+
+.myForm [name=custom] {
+      height: 10px;
+      width: 100px;
+      margin-left: 5px;
+}
+
+.myForm :required {
+      background-color: #dadada;
+}
+
+.myForm [type=submit] {
+      background-color: #b42f2f;
+      border: none;
+      padding: 1rem 2.5rem;
+      border-radius: 10px;
+      color: white;
+      font-size: 1rem;
+      margin: 1rem 1rem 1rem 1vw;
+
+}
+
+/* footer customization code */
+footer {
+      background-color: #d9d9d9;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: .7rem;
+      color: #333;
+}
+
+footer p {
+      margin: 0;
+      letter-spacing: 2.5px;
+}
+
+header, nav, main, footer {
+      max-width: 64rem;
+      margin: 0 auto;
+}
